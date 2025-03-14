@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+header {
+    padding: 25px;
+    background-color: #586875;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50PX;
+
+}
+
+header i {
+    color: #fdfdfd;
+    font-size: 60px;
+
+}
+
+header h1 {
+    color:#fdfdfd;
+    font-family: "Dancing Script", cursive;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.sector ul {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.sector ul {
+    list-style: none;
+}
+
+.sector ul li a {
+    text-decoration: none;
+    color: #bdd6d2;
+
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(IMAGENS/salt-lake-city-4552986_1280.jpg);
+    padding: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.apresentacao button {
+    padding: 10px;
+    width: 120px;
+    background-color: #f6eddc;
+    display: flex;
+    justify-content: center;
+}
+
+.introducao {
+    padding: 160px;
+    background-color: #bdd6d2;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+
+}
+
+.introducao div {
+    width:300px;
+    height: 300px;
+    background-color: #e3e5d7;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+.div-01 {
+    padding: 10px; 
+    color: #586875;
+    font-size: 25px;
+    gap: 10px;
+}
+
+.div-02 {
+    background-image: url(IMAGENS/apartment-5002551_1280.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+
+.div-03 {
+    background-image: url(IMAGENS/joy-7853671_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.div-03 p {
+    background-color: #58687591;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sessao4 {
+    padding: 180px;
+    background-color: #a5c8ca;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.sessao4 p {
+    color: blueviolet;
+    font-size: 25px;
+    background-color: rgba(0, 255, 255, 0.356);
+    padding: 20px;
+}
