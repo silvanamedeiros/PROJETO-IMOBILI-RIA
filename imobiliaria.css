@@ -70,8 +70,8 @@ header h1 {
 }
 
 .introducao div {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background-color: #e3e5d7;
     color: black;
     padding: 15px;
@@ -99,11 +99,12 @@ header h1 {
 
 
 .div-03 p {
-    background-color: #616a7281;
-    color: rgba(255, 255, 255, 0.671);
-    padding: 10px;
+    background-color: #71737544;
+    color: rgba(0, 0, 0, 0.596);
+    padding: 20px;
     font-size: 20px;
-    gap: 30px;
+    gap: 10px;
+    text-align: center;
 }
 
 .conteudo {
@@ -123,9 +124,10 @@ header h1 {
 .conteudo p {
     background-color: #e3e5d7;
     color: black;
-    font-size: 30px;
+    font-size: 40px;
+    gap: 15px;
     
-    padding: 5px;
+    padding: 15px;
 
 }
 
