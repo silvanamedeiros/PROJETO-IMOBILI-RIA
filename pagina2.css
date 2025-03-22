@@ -1,79 +1,60 @@
-* {
-    margin: 0%
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
-header {
-
-    padding: 25px;
-    background-color: #586875;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 30PX;
-
-}
-
-header i {
-    color: #fdfdfd;
-    font-size: 60px;
-
-}
-
-header h1 {
-    color: #fdfdfd;
-    font-family: "Dancing Script", cursive;
-    font-size: 45px;
-    font-weight: 800;
-
-}
-
-.sector ul {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-
-}
-
-.sector ul {
-    list-style: none;
-}
-
-.sector ul li a {
-    text-decoration: none;
-    color: #bdd6d2;
-
-}
-
-.Venda {
-    padding: 200px;
-    background-color: aliceblue;
-    align-items: center;
-
-}
-
-.Venda h3 {
-    color: #586875;
-    font-family: "Dancing Script", cursive;
-    font-size: 40px;
-    text-align: center;
-
-
-}
-
-.Venda div {
-
-    width: 200px;
-    height: 200px;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+*{ 
+    margin: 0;
+    padding: 0;
+    }
     
-}
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+    
+    header {
+        
+        padding: 25px;
+        background-color: #586875;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 30PX;
+    
+    }
+    
+    header i {
+        color: #fdfdfd;
+        font-size: 60px;
+    
+    }
+    
+    header h1 {
+        color: #fdfdfd;
+        font-family: "Dancing Script", cursive;
+        font-size: 45px;
+        font-weight: 800;
+    }
+    
+    .sector ul {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    
+    }
+    
+    .sector ul {
+        list-style: none;
+    }
+    
+    .sector ul li a {
+        text-decoration: none;
+        color: #bdd6d2;
+    
+    }
 
+    .Venda div {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+
+    }
+    .Venda div 
 
 
 
