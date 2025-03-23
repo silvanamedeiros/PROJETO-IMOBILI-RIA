@@ -1,60 +1,81 @@
-*{ 
+* {
     margin: 0;
     padding: 0;
-    }
-    
-    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-    
-    header {
-        
-        padding: 25px;
-        background-color: #586875;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 30PX;
-    
-    }
-    
-    header i {
-        color: #fdfdfd;
-        font-size: 60px;
-    
-    }
-    
-    header h1 {
-        color: #fdfdfd;
-        font-family: "Dancing Script", cursive;
-        font-size: 45px;
-        font-weight: 800;
-    }
-    
-    .sector ul {
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    
-    }
-    
-    .sector ul {
-        list-style: none;
-    }
-    
-    .sector ul li a {
-        text-decoration: none;
-        color: #bdd6d2;
-    
-    }
+}
 
-    .Venda div {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-    }
-    .Venda div 
+header {
+    padding: 25px;
+    background-color: #586875;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30PX;
+
+}
+
+header i {
+    color: #fdfdfd;
+    font-size: 60px;
+
+}
+
+header h1 {
+    color: #fdfdfd;
+    font-family: "Dancing Script", cursive;
+    font-size: 45px;
+    font-weight: 800;
+}
 
 
 
+.inicio ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    list-style: none;
+   
+}
+
+.inicio ul li a {
+    font-family: "Dancing Script", cursive;
+    color: #bdd6d2;
+
+
+}
+
+
+.Venda {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+    background-color: #e3e5d7;
+
+
+}
+
+.div h3 {
+    text-align: center;
+    font-family: "Dancing Script", cursive;;
+    color: #586875
+}
+
+.mostruario div {
+    width: 200px;
+    height: 200px;
+    background-color: #e3e5d7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+   
+}
+
+
+
+.fotos {
+
+} 

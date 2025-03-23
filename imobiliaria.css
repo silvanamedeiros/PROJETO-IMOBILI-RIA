@@ -34,10 +34,6 @@ header h1 {
     display: flex;
     justify-content: center;
     gap: 20px;
-
-}
-
-.sector ul {
     list-style: none;
 }
 
@@ -209,6 +205,6 @@ header h1 {
    
  }
 
- .footer p {
+ .footer a {
 
  }
