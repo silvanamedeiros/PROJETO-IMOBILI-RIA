@@ -61,7 +61,8 @@ header h1 {
     text-align: center;
     font-family: "Dancing Script", cursive;
     font-size: 25px;
-    color: #586875
+    color: #586875;
+    padding: 100px;
     
 }
 
@@ -69,15 +70,35 @@ header h1 {
     width: 250px;
     height: 250px;
     background-color: #e3e5d7;
-    padding: 20px;
+    padding: 150px;
     display: flex;
     justify-content: space-evenly;
+    gap: 20px;
 
    
+
+   
+}
+.mostruario div:hover {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: 10px 10px 20px  #586875 ;  /* Responsável por sombrear a imagem das ciaxas (um valor cuida da sombra lateral das cixas, 2 valor sombra inferior, 3 sombra de baixo das caixas)*/
+    padding: 150px; 
+    border-radius: 15px ;
 }
 
 
 
-.div fotos {
 
-} 
+.fotos {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+.div-04 {
+
+}
