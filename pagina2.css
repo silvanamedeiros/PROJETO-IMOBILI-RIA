@@ -47,7 +47,7 @@ header h1 {
 }
 
 
-.Venda {
+.Venda div {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -59,13 +59,15 @@ header h1 {
 
 .div h3 {
     text-align: center;
-    font-family: "Dancing Script", cursive;;
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
     color: #586875
+    
 }
 
 .mostruario div {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: #e3e5d7;
     padding: 20px;
     display: flex;
@@ -76,6 +78,6 @@ header h1 {
 
 
 
-.fotos {
+.div fotos {
 
 } 
