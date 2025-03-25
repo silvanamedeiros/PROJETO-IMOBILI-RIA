@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+header {
+    padding: 25px;
+    background-color: #586875;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+
+}
+
+header i {
+    color: #fdfdfd;
+    font-size: 60px;
+
+}
+
+header h1 {
+    color: #fdfdfd;
+    font-family: "Dancing Script", cursive;
+    font-size: 45px;
+    font-weight: 800;
+}
