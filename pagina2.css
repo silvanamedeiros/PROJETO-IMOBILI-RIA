@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 30PX;
+    gap: 30px;
 
 }
 
@@ -66,26 +66,23 @@ header h1 {
     
 }
 
-.mostruario div {
-    width: 250px;
-    height: 250px;
-    background-color: #e3e5d7;
-    padding: 150px;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
 
-   
 
-   
-}
 .mostruario div:hover {
+  
+    box-shadow: 10px 10px 20px  #586875;  /* Responsável por sombrear a imagem das ciaxas (um valor cuida da sombra lateral das cixas, 2 valor sombra inferior, 3 sombra de baixo das caixas)*/
+    
+    border-radius: 15px ;
+}
+
+
+.mostruario {
+    padding: 130px;
+    background-color: #586875;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    box-shadow: 10px 10px 20px  #586875 ;  /* Responsável por sombrear a imagem das ciaxas (um valor cuida da sombra lateral das cixas, 2 valor sombra inferior, 3 sombra de baixo das caixas)*/
-    padding: 150px; 
-    border-radius: 15px ;
+    gap: 30px;
 }
 
 
@@ -94,11 +91,29 @@ header h1 {
 .fotos {
     display: flex;
     justify-content: space-evenly;
-
-
-
+    gap: 50px;
 }
 
-.div-04 {
 
+
+.fotos2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.fotos2 div {
+    width: 400px;
+    height: 400px;
+}
+
+.fotos div {
+    width: 400px;
+    height: 400px;
+}
+
+
+.casa-moderna {
+    width: 100%;
+    border-radius: 10px;
 }
