@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
@@ -39,6 +40,13 @@ header h1 {
    
 }
 
+.inicio ul li a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+
+
 .inicio ul li a {
     font-family: "Dancing Script", cursive;
     color: #bdd6d2;
@@ -57,12 +65,11 @@ header h1 {
 
 }
 
-.div h3 {
-    text-align: center;
-    font-family: "Dancing Script", cursive;
-    font-size: 35px;
+.Venda div h3 {
     color: #586875;
-    padding: 100px;
+    font-family: "Dancing Script", cursive;
+    font-size: 45px;
+    font-weight: 500;
     
 }
 
@@ -71,7 +78,7 @@ header h1 {
 .mostruario div:hover {
   
     box-shadow: 10px 10px 20px  #586875;  /* Responsável por sombrear a imagem das ciaxas (um valor cuida da sombra lateral das cixas, 2 valor sombra inferior, 3 sombra de baixo das caixas)*/
-    
+    color: black;
     border-radius: 15px ;
 }
 
@@ -121,13 +128,13 @@ header h1 {
 .casa-moderna p {
     color: #586875;
     font-family: "Dancing Script", cursive;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     justify-content: space-evenly;
 
 }
 
-.span {
+.div-span {
     padding: 30px;
     color: #586875; 
     font-family: "Dancing Script", cursive;
@@ -136,14 +143,6 @@ header h1 {
 
 }
  
-
-
-
-
-
-
-
-
 
 .footer {
     padding: 25px;
