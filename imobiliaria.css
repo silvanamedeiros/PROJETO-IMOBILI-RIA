@@ -57,10 +57,6 @@ div i {
     transition: 0.3s;
 }
 
-.sector ul li i {
-    font-size: 20px;
-}
-
 .apresentacao {
     display: flex;
     justify-content: center;
