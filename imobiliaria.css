@@ -30,6 +30,11 @@ header h1 {
     font-weight: 800;
 }
 
+div i {
+    font-size: 30px;
+    color: #fdfdfd;
+}
+
 .sector ul {
     align-items: center;
     display: flex;
@@ -42,6 +47,8 @@ header h1 {
 .sector ul li a {
     text-decoration: none; /*TEXT DECORATION: para tirar pontos sublinhados, etc das letras*/
     color: #bdd6d2;
+    text-decoration: none;
+
 
 }
 
@@ -109,18 +116,23 @@ header h1 {
     color: #586875;
     font-size: 25px;
     gap: 10px;
+    box-shadow: 10px 10px 20px;
+    color: black;
 }
 
 .div-02 {
     background-image: url(IMAGENS/apartment-5002551_1280.jpg);
     background-position: center;
     background-size: cover;
+    box-shadow: 10px 10px 20px;
+    color: black;
 }
 
 .div-03 {
     background-image: url(IMAGENS/joy-7853671_1280.jpg);
     background-position: center;
     background-size: cover;
+    box-shadow: 10px 10px 20px;
 }
 
 
@@ -131,6 +143,7 @@ header h1 {
     font-size: 30px;
     gap: 10px;
     text-align: center;
+    box-shadow: 10px 10px 20px;
 }
 
 .conteudo {
@@ -181,6 +194,12 @@ header h1 {
     justify-content: space-evenly;
     gap: 30px;
     align-items: center;
+}
+
+
+.sessao04 iframe {
+    box-shadow: 10px 10px 20px;
+    color: black;
 }
 
 

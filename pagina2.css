@@ -40,6 +40,13 @@ header h1 {
    
 }
 
+.inicio ul li a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+
+
 .inicio ul li a {
     text-decoration: none;
     color: #bdd6d2;
@@ -74,7 +81,7 @@ header h1 {
 .mostruario div:hover {
   
     box-shadow: 10px 10px 20px  #586875;  /* Responsável por sombrear a imagem das ciaxas (um valor cuida da sombra lateral das cixas, 2 valor sombra inferior, 3 sombra de baixo das caixas)*/
-    
+    color: black;
     border-radius: 15px ;
 }
 
@@ -124,7 +131,7 @@ header h1 {
 .casa-moderna p {
     color: #586875;
     font-family: "Dancing Script", cursive;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     justify-content: center;
 
@@ -139,7 +146,6 @@ header h1 {
 
 }
  
-
 
 .footer {
     padding: 25px;
@@ -163,11 +169,11 @@ header h1 {
     font-family: "Dancing Script", cursive
 
     
-
-
 }
- .footer p {
-    padding: 10px;
+
+
+.footer p {
+    padding: 20px;
      color: #fdfdfd;
      font-size: 10px;
      gap: 10px;
