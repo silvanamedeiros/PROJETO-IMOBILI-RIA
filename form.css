@@ -1,13 +1,75 @@
-* {
+/* ESTILIZAÇÃO GLOBAL*/
+
+*{
     margin: 0;
     padding: 0;
+    font-family: cursive;
+
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
+body {
+    background-color: #f9cdad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
 
+    /*ESTILIZANDO A DIV QUE CONTÉM O FORMULÁRIO*/
+    
 .div-form {
+    background-color: #c8c8a9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #fc9d9a;
     width: 300px;
-    height: 400px;
-    color: aquamarine;
+    height: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px; /* margem inferior*/
+    font-weight: bold; /* Lardura da fonte*/
+}
+
+
+.imob {
+    padding: 10px; /*espassamento interno*/
+    margin-bottom: 15px; /*espassamento inferior dos input*/
+    font-size: 16px; /*tamanho da letra*/
+    border-radius: 5px;/*bordas arredondadas*/
+    border: 2px solid #f9cdad; /*inserir bordas nos input*/
+}
+
+
+.btn-form {
+    background-color: #83af9b ;
+    color: #fc9d9a;
+    padding: 10px; /* espaçamento interno*/
+    border: none;/* botda: nenhuma: sem borda*/
+    border-radius: 5px; /* arredondamento do botão*/
+    font-size: 16px; /* tamanho s aletra*/
+    cursor: pointer; /* tipo de cursor de mouse*/
+}
+
+.btn-form {
+    background-color: #f9cdad;
+    transition: 0.8s;
 
 }
+
+h2, p {
+    margin-bottom: 15px;
+    font-family: "Dancing Script", cursive;;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
