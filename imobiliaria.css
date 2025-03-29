@@ -224,7 +224,7 @@ div i {
 
 }
 
-.footer {
+footer {
     padding: 25px;
     background-color: #586875;
     text-align: center;
@@ -232,7 +232,7 @@ div i {
 
 }
 
-.footer i {
+footer i {
     padding: 10px;
     color: #fdfdfd;
     font-size: 20px;
@@ -241,13 +241,13 @@ div i {
 
 
 
-.footer h2 {
+footer h2 {
     padding: 10px;
     color: #fdfdfd;
     font-family: "Dancing Script", cursive
 }
 
-.footer p {
+footer p {
     padding: 10px;
     color: #fdfdfd;
     font-size: 10px;
@@ -255,4 +255,6 @@ div i {
 
 }
 
-.footer p a {}
+footer a p {
+    text-decoration: none;
+}

@@ -52,11 +52,6 @@ header h1 {
     color: #bdd6d2;
 }
 
-.inicio li a:hover {
-    color: #fdfdfd;
-    transition: 0.3s;
-}
-
 
 .Venda div {
     display: flex;
@@ -147,14 +142,14 @@ header h1 {
 }
  
 
-.footer {
+footer {
     padding: 25px;
     background-color: #586875;
     text-align: center;
 
 }
 
-.footer i {
+footer i {
     padding: 10px;
     color: #fdfdfd;
     font-size: 20px;
@@ -163,7 +158,7 @@ header h1 {
 
 
 
-.footer h2 {
+footer h2 {
     padding: 10px;
     color: #fdfdfd;
     font-family: "Dancing Script", cursive
@@ -172,7 +167,7 @@ header h1 {
 }
 
 
-.footer p {
+footer p {
     padding: 20px;
      color: #fdfdfd;
      font-size: 10px;
@@ -180,6 +175,6 @@ header h1 {
    
  }
 
- .footer a {
+footer a p {
     text-decoration: none;
  }
