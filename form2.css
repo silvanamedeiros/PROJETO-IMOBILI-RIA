@@ -7,17 +7,16 @@
 body {
     background-color: #c6d8c0;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 50px;
     flex-direction: column;
 }
 
 .fa-house {
-    
     color: #fdfdfd;
     font-size: 30px;
-    
+
 }
 
 
@@ -32,8 +31,8 @@ body {
 
 .form2 {
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-evenly;
+    gap: 15px;
 }
 
 label {
@@ -47,7 +46,7 @@ label {
     font-size: 16px;
     font-family: "Dancing Script", cursive;
     border-radius: 5px;
-    border: 2px  #f9cdad;
+    border: 2px #f9cdad;
 
 }
 
@@ -66,8 +65,7 @@ label {
     transition: 0.3s;
 }
 
-.h3, p {
-    
+.h3,p {
     font-family: "Dancing Script", cursive;
 
 }
