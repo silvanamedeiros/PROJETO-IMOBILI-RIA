@@ -1,45 +1,40 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
-    
-
 }
 
 header {
-    padding: ;
-    background-color: white ;
-
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: center;
+    padding: 1em;
 
 }
- header img {
- display: flex;
- justify-content: space-evenly;
- 
-}
 
- header button {
+header button {
     padding: 5px;
     background-color: rgb(70, 68, 68);
     display: flex;
     justify-content: center;
-    
+
 }
 
-header button:hover {
-    border-radius: 2px;
-    color: grey;
-    transition: 0.3s;
+header div button {
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    padding: 1em;
 }
 
 
-
- /* BACKGROUND-LINEAR-GRADIENT (180 deg., #   */
- .section-01 {
-    background: linear-gradient(linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(210,185,196,0.8883928571428571) 12%, rgba(0,212,255,1) 29%)),url(woman-5864279_1280.jpg);
+/* BACKGROUND-LINEAR-GRADIENT (180 deg., #   */
+.section-01 {
+    background: linear-gradient(77deg, rgba(2, 0, 36, 1) 0%, rgba(219, 128, 97, 0.8603816526610644) 33%), url(woman-5864279_1280.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 200px;
+    width: 100%;
+    height: 80vh;
 
- }
+}
