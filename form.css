@@ -68,7 +68,7 @@ label {
     background-color: #83af9b ;
     color: #e9dcd3;
     padding: 10px; /* espaçamento interno*/
-    border: none;/* botda: nenhuma: sem borda*/
+    border: none;/* borda: nenhuma: sem borda*/
     border-radius: 5px; /* arredondamento do botão*/
     font-size: 16px; /* tamanho da letra*/
     cursor: pointer; /* tipo de cursor de mouse*/
