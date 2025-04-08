@@ -24,8 +24,17 @@ body {
     
     color: #fdfdfd;
     font-size: 30px;
-    
 }
+
+
+.fa-house {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+    
+
 
     /*ESTILIZANDO A DIV QUE CONTÉM O FORMULÁRIO*/
     
