@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     font-family: "Dancing Script", cursive;
 }
 
@@ -19,10 +20,11 @@ body {
 
 }
 
-.fa-house{
+.fa-house,h2 {
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 }
 
 
@@ -33,7 +35,7 @@ body {
     box-shadow: 10px 10px 20px #464343;
     width: 300px;
     height: 600px;
-    
+
 }
 
 .form2 {
@@ -74,9 +76,9 @@ label {
     justify-content: center;
 }
 
-.h2, p {
+.h2,p { margin-bottom: 15px;
     font-family: "Dancing Script", cursive;
-   text-align: center;
-   margin-bottom: 15px;
-   color: #464343;
+    font-weight: 600;
+    text-align: center;
+    color: #464343;
 }

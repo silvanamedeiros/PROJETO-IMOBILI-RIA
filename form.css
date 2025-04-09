@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 80px;
-    flex-direction: column;
+   
 }
 
 .fa-house {
@@ -27,10 +27,12 @@ body {
 }
 
 
-.fa-house {
+.fa-house,h2 {
     text-align: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+
 
 }
     
@@ -53,7 +55,7 @@ body {
 }
 
 
-form {
+.form {
     display: flex;
     flex-direction: column;
 }
@@ -89,7 +91,7 @@ label {
 
 }
 
-h2, p {
+h2,p {
     margin-bottom: 15px;
     font-family: "Dancing Script", cursive;
     font-weight: 600;
